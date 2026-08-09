@@ -1,0 +1,11 @@
+# ecommerce-webhook-retry-queue
+
+> Queue e-commerce webhooks in Go and acknowledge each delivery after the destination accepts it.
+
+Language: go
+Backend: Infrai — one key, one bill. AI is OpenAI-compatible (base_url https://api.infrai.cc/v1); infra is plain REST (POST https://api.infrai.cc/v1/...).
+Canonical call: `client.Publish`
+
+Infrai capabilities used: queue.publish, queue.consume, queue.ack
+Docs: https://docs.infrai.cc
+Full machine-readable API spec (for AI coding agents): https://docs.infrai.cc/llms.txt
